@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica';
+    font-size: 100%;
+    background: rgb(44, 62, 80);
+    color: rgb(236, 240, 241);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin: 0;
+}
+
+h1,
+h2 {
+    flex: 0 0 auto;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+.hour {
+    color: rgb(26, 188, 156);
+}
+
+.minute {
+    color: rgb(155, 89, 182);
+}
+
+.second {
+    color: rgb(230, 126, 34);
+}
+
+.day {
+    color: rgb(52, 152, 219);
+}
+
+.month {
+    color: rgb(241, 196, 15);
+}
+
+.separator {
+    margin: 0 0.25rem;
+}

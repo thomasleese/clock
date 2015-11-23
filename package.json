@@ -1,0 +1,23 @@
+{
+  "name": "clock",
+  "version": "0.1.0",
+  "description": "A clock, plain and simple.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasleese/clock.git"
+  },
+  "keywords": [],
+  "author": "Thomas Leese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasleese/clock/issues"
+  },
+  "homepage": "https://github.com/thomasleese/clock",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.1"
+  }
+}
